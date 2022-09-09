@@ -10,7 +10,7 @@ export const App = () => {
   }, []);
 
   const contactos = async () => {
-    const respuesta = await fetch("https://randomuser.me/api/?results=10");
+    const respuesta = await fetch("https://randomuser.me/api/?results=12");
     const informacion = await respuesta.json();
     setUsuarios(informacion.results);
     console.log(informacion.results);
