@@ -25,7 +25,7 @@ export const App = () => {
           className="w-full bg-white border-2 border-gray-400 rounded-lg py-2 px-4 mb-4"
           onChange={(e) => setBuscar(e.target.value)}
         />
-        <div className="bg-gray-200 p-10 flex: columns-2 items-center">
+        <div className="bg-gray-200 p-10 flex flex-wrap items-center">
           {usuarios
             .filter((usuario) => {
               if (buscar === "") {
