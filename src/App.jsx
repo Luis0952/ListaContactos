@@ -18,7 +18,10 @@ export const App = () => {
 
   return (
     <>
-      <div className="flex flex-col flex-2 item-center mt-16 px-16">
+    <div className="">
+      <h1 className="text-center text-6xl font-bold m-8"> <span className="text-blue-700  border-b-4 border-blue-700">Lista de Contactos</span> con consumo de una <span className=" text-blue-700">API</span></h1>
+    </div>
+      <div className="flex flex-col flex-2 items-center mt-16 px-16">
         <input
           type="text"
           placeholder="Buscar usuario..."
